@@ -13,6 +13,8 @@
 		A445A92C2AED7D18000C748D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A92B2AED7D18000C748D /* ContentView.swift */; };
 		A445A92E2AED7D1A000C748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A445A92D2AED7D1A000C748D /* Assets.xcassets */; };
 		A445A9312AED7D1A000C748D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A445A9302AED7D1A000C748D /* Preview Assets.xcassets */; };
+		A445A9392AED808F000C748D /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A9382AED808F000C748D /* WaterView.swift */; };
+		A445A93B2AED809B000C748D /* WaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A93A2AED809B000C748D /* WaterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A445A92B2AED7D18000C748D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A445A92D2AED7D1A000C748D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A445A9302AED7D1A000C748D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A445A9382AED808F000C748D /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		A445A93A2AED809B000C748D /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				A445A9292AED7D18000C748D /* BeWellApp.swift */,
 				A445A92B2AED7D18000C748D /* ContentView.swift */,
 				86A3DD812AED7FF80062D9B5 /* Steps */,
+				A445A9372AED806F000C748D /* Water */,
 				A445A92D2AED7D1A000C748D /* Assets.xcassets */,
 				A445A92F2AED7D1A000C748D /* Preview Content */,
 			);
@@ -79,6 +84,15 @@
 				A445A9302AED7D1A000C748D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A445A9372AED806F000C748D /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				A445A9382AED808F000C748D /* WaterView.swift */,
+				A445A93A2AED809B000C748D /* WaterViewModel.swift */,
+			);
+			path = Water;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,8 @@
 				86A3DD852AED802E0062D9B5 /* StepsView.swift in Sources */,
 				86A3DD832AED800E0062D9B5 /* StepsViewModel.swift in Sources */,
 				A445A92C2AED7D18000C748D /* ContentView.swift in Sources */,
+				A445A9392AED808F000C748D /* WaterView.swift in Sources */,
+				A445A93B2AED809B000C748D /* WaterViewModel.swift in Sources */,
 				A445A92A2AED7D18000C748D /* BeWellApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
