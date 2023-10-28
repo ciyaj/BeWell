@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A3DD832AED800E0062D9B5 /* StepsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3DD822AED800E0062D9B5 /* StepsViewModel.swift */; };
+		86A3DD852AED802E0062D9B5 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3DD842AED802E0062D9B5 /* StepsView.swift */; };
 		A445A92A2AED7D18000C748D /* BeWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A9292AED7D18000C748D /* BeWellApp.swift */; };
 		A445A92C2AED7D18000C748D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A92B2AED7D18000C748D /* ContentView.swift */; };
 		A445A92E2AED7D1A000C748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A445A92D2AED7D1A000C748D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86A3DD822AED800E0062D9B5 /* StepsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewModel.swift; sourceTree = "<group>"; };
+		86A3DD842AED802E0062D9B5 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		A445A9262AED7D18000C748D /* BeWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A445A9292AED7D18000C748D /* BeWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWellApp.swift; sourceTree = "<group>"; };
 		A445A92B2AED7D18000C748D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86A3DD812AED7FF80062D9B5 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				86A3DD822AED800E0062D9B5 /* StepsViewModel.swift */,
+				86A3DD842AED802E0062D9B5 /* StepsView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
 		A445A91D2AED7D18000C748D = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			children = (
 				A445A9292AED7D18000C748D /* BeWellApp.swift */,
 				A445A92B2AED7D18000C748D /* ContentView.swift */,
+				86A3DD812AED7FF80062D9B5 /* Steps */,
 				A445A92D2AED7D1A000C748D /* Assets.xcassets */,
 				A445A92F2AED7D1A000C748D /* Preview Content */,
 			);
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A3DD852AED802E0062D9B5 /* StepsView.swift in Sources */,
+				86A3DD832AED800E0062D9B5 /* StepsViewModel.swift in Sources */,
 				A445A92C2AED7D18000C748D /* ContentView.swift in Sources */,
 				A445A92A2AED7D18000C748D /* BeWellApp.swift in Sources */,
 			);
